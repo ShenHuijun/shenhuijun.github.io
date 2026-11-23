@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Huijun Shen</title>
+  <meta name="description" content="Huijun Shen's research and selected publications in computer systems and networking.">
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, sans-serif;
+      color: #161616;
+      background: #fff;
+    }
+
+    body {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 42rem;
+      margin-inline: auto;
+      padding: clamp(3.25rem, 11vw, 7rem) clamp(1.35rem, 5vw, 2.5rem) 4rem;
+    }
+
+    h1, h2 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 600;
+      line-height: 1.15;
+    }
+
+    h1 {
+      font-size: clamp(2.6rem, 8vw, 4rem);
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      letter-spacing: -0.018em;
+    }
+
+    p {
+      margin: 0.9rem 0 0;
+    }
+
+    section {
+      margin-top: 2.6rem;
+      border-top: 1px solid #dedede;
+      padding-top: 1.55rem;
+    }
+
+    ul {
+      list-style: none;
+      margin: 1.15rem 0 0;
+      padding: 0;
+    }
+
+    li + li {
+      margin-top: 1.3rem;
+    }
+
+    .paper-title {
+      display: block;
+      font-weight: 650;
+    }
+
+    .paper-details {
+      color: #494949;
+      font-size: 0.92rem;
+    }
+
+    a {
+      color: inherit;
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    a:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Huijun Shen</h1>
+      <p>I work on computer systems and networking, with a focus on RDMA. My recent work looks at how to make RDMA easier to deploy and use for communication and memory sharing.</p>
+      <p>
+        <a href="mailto:shj@hnu.edu.cn">shj@hnu.edu.cn</a> ·
+        <a href="https://scholar.google.com/citations?user=RUrUcWAAAAAJ&amp;hl=en">Google Scholar</a> ·
+        <a href="https://github.com/ShenHuijun">GitHub</a>
+      </p>
+    </header>
+
+    <section aria-labelledby="publications">
+      <h2 id="publications">Selected Publications</h2>
+      <ul role="list">
+        <li>
+          <span class="paper-title">SymRDMA: Enabling In-Situ Remote Virtual Memory Sharing</span>
+          <div class="paper-details">
+            ACM ATC 2026 · <a href="papers/symrdma-slides.pdf" aria-label="SymRDMA presentation slides (PDF)">Slides (PDF)</a> ·
+            <a href="https://github.com/ShenHuijun/SymRDMA-codes" aria-label="SymRDMA source code">Code</a>
+          </div>
+        </li>
+        <li>
+          <span class="paper-title">BURST: Seeking High-performance, Interoperability and Scalability in Soft-RDMA</span>
+          <div class="paper-details">
+            USENIX NSDI 2026 · <a href="https://www.usenix.org/system/files/nsdi26-shen.pdf" aria-label="Read the BURST paper (PDF)">PDF</a>
+          </div>
+        </li>
+        <li>
+          <span class="paper-title">UCM: Fast and Maintainable User-space RDMA Connection Setup</span>
+          <div class="paper-details">
+            APNet 2025 · <a href="https://doi.org/10.1145/3735358.3735388" aria-label="UCM paper">Paper</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
