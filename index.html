@@ -67,7 +67,7 @@
       font-weight: 650;
     }
 
-    .paper-details {
+    .paper-details, .paper-authors, .education-detail {
       color: #494949;
       font-size: 0.92rem;
     }
@@ -91,7 +91,7 @@
   <main>
     <header>
       <h1>Huijun Shen</h1>
-      <p>I am a Ph.D. student at Hunan University. My research focuses on high-performance networking, RDMA, and AI infrastructure. I have worked closely with industry teams at Huawei and ByteDance.</p>
+      <p>I am a Ph.D. student at Tsinghua University. My research focuses on high-performance networking, RDMA, and AI infrastructure. I have worked closely with industry teams at Huawei and ByteDance.</p>
       <p>I expect to graduate in 2027 and am open to full-time opportunities in AI infrastructure and high-performance networking.</p>
       <p>
         <a href="mailto:shj@hnu.edu.cn">shj@hnu.edu.cn</a> ·
@@ -100,11 +100,26 @@
       </p>
     </header>
 
+    <section aria-labelledby="education">
+      <h2 id="education">Education</h2>
+      <ul role="list">
+        <li>
+          <em>2017.09 – 2021.06</em> · Bachelor’s degree, Hunan University
+          <div class="education-detail">Outstanding Graduate of Hunan Province and Outstanding Graduate of Hunan University</div>
+        </li>
+        <li>
+          <em>2021.09 – Present</em> · Ph.D. student, Tsinghua University
+          <div class="education-detail">Supervised by Prof. Guo Chen</div>
+        </li>
+      </ul>
+    </section>
+
     <section aria-labelledby="publications">
       <h2 id="publications">Selected Publications</h2>
       <ul role="list">
         <li>
           <span class="paper-title">SymRDMA: Enabling In-Situ Remote Virtual Memory Sharing</span>
+          <div class="paper-authors"><strong>Huijun Shen</strong>, Bojie Li, Haixin Pang, Peihao Huang, Xingtong Lin, Xingyu Zhang, Guo Chen</div>
           <div class="paper-details">
             ACM ATC 2026 ·
             <a href="https://dl.acm.org/doi/epdf/10.1145/3828523.3857051" aria-label="SymRDMA paper (ACM PDF)">paper</a> ·
@@ -114,6 +129,7 @@
         </li>
         <li>
           <span class="paper-title">BURST: Seeking High-performance, Interoperability and Scalability in Soft-RDMA</span>
+          <div class="paper-authors"><strong>Huijun Shen</strong>, Zelong Yue, Jian Yang, Zhuo Jiang, Lang An, Yulin Chen, Yong Zhang, Luochangqi Ding, Xiaolong Zhong, Zhihong Wang, Jie Ding, Hongyu Wu, Jianxi Ye, Xijin Yin, Xingyu Zhang, Xingyu Guo, Guo Chen</div>
           <div class="paper-details">
             USENIX NSDI 2026 ·
             <a href="https://www.usenix.org/system/files/nsdi26-shen.pdf" aria-label="BURST paper (PDF)">paper</a> ·
@@ -122,6 +138,7 @@
         </li>
         <li>
           <span class="paper-title">UCM: Fast and Maintainable User-space RDMA Connection Setup</span>
+          <div class="paper-authors"><strong>Huijun Shen</strong>, Jian Yang, Zelong Yue, Xingyu Guo, Xijin Yin, Lang An, Yulin Chen, Jie Ding, Hongyu Wu, Yong Zhang, Jianxi Ye, Guo Chen</div>
           <div class="paper-details">
             APNet 2025 ·
             <a href="https://doi.org/10.1145/3735358.3735388" aria-label="UCM paper">paper</a> ·
